@@ -1,40 +1,160 @@
 1. Help me create a daily schedule to be more productive.
+Clarity: Vague but understandable.
+Limitations: Lacks context—what kind of work? How much time? What are the goals?
+Likely Output: A generic, one-size-fits-all schedule.
 
+Better version: “Help me create a daily schedule for more productivity, where X hours of my day are dedicated towards work/ education, and the number of tasks I need to complete every day are Y, while still allowing a little down time.”
+What’s Improved:
+Contextual constraint: Specifies available time (X hours).
+Workload: Defines daily task count (Y).
+Balance: Mentions need for downtime.
+Result: This gives a much more customized and human-centered output.
+Use Case Fit: Great for someone trying to balance structure with mental well-being.
+
+And advanced version: “Help me create a daily schedule for more productivity, where X hours of my day are dedicated towards work/ education, and the number of tasks I need to complete every day are Y, while still allowing a little down time. What ideal number of hours do I need to dedicate towards each of these tasks for mastery in Z months. ”
+What’s Improved:
+Goal orientation: Introduces a longer-term outcome (mastery in Z months).
+Strategic planning: Demands time allocation based on outcome, not just availability.
+Intelligent prompting: Forces the model to calculate or estimate backwards from a desired skill/time outcome.
+Result: Much more nuanced and strategic. This turns a schedule generator prompt into a custom productivity blueprint prompt.
+
+| Feature                          | Basic Version | Better Version | Advanced Version                           |
+| -------------------------------- | ------------- | -------------- | -------------------------------------      |
+| Time Allocation Specified        | ❌           | ✅ (X hours)    | ✅ (X hours + estimated mastery curve) |
+| Number of Tasks per Day Given    | ❌           | ✅ (Y tasks)    | ✅ (Y tasks)                           |
+| Focus on Downtime/Balance        | ❌           | ✅              | ✅                                     |
+| Goal-Oriented (Mastery Timeline) | ❌           | ❌              | ✅ (Z months to mastery)               |
+| Level of Customization           | Low          | Medium            | High                                    |
+| Prompt Style                     | Generic      | Personalized      | Outcome-driven                          |
+
+
+~~~~~~~~~~~~~~~~~~~~~
 2. What are some tips to stop procrastinating?
+Clarity: Very clear.
+Limitations:
+Generic—assumes one-size-fits-all solutions.
+Doesn’t address why the procrastination is happening.
+Only invites surface-level answers.
+Likely Output: List of generic tips (e.g. break tasks down, use timers, reward yourself).
 
+Better version: “I procrastinate with difficult and/or newer tasks. Although once started I can complete them quickly enough, but I tend to leave them until the last minute. What could be the psychological reasons behind this, and how can I overcome them? Are there any practices that I can follow to unlearn this behaviour and use my time, skills and knowledge more efficiently rather than procrastinate and yet constantly keep thinking about my tasks?”
+What Makes the Better Prompt… Better?
+Self-awareness:
+It identifies a specific procrastination pattern—delaying difficult or new tasks despite being capable of completing them quickly.
+Psychological curiosity:
+Rather than asking for tips, it seeks to understand the root cause, inviting deeper and more tailored insights.
+Focus on behavioral change:
+It aims to unlearn a habit, not just manage it—shifting from a quick fix to long-term transformation.
+Acknowledges emotional friction:
+Mentions the common but often ignored issue: mental looping—not doing the task but constantly thinking about it.
+Optimized for impact:
+By including context, internal conflict, and desired outcomes, the prompt is more likely to generate meaningful, personalized responses—whether from a human or an AI.
+
+
+| Feature                         | Analysis                                                                                                                                               |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Self-awareness**              | You define a **specific pattern** of procrastination (difficulty or novelty triggers it).                                                              |
+| **Clarification of Outcome**    | You aren’t just asking how to stop procrastinating—you want to **retrain behavior**, **understand the psychology**, and **use your resources better**. |
+| **Psychological Depth**         | This invites a tailored response, including root causes (e.g. fear of failure, perfectionism, task aversion, novelty anxiety).                         |
+| **Emotional Realism**           | You acknowledge the mental loop: *not doing the task but thinking about it constantly*—which is key for human-centered AI guidance.                    |
+| **Desire for Long-term Change** | The phrase “unlearn this behaviour” shifts the tone from a quick fix to sustainable transformation.                                                    |
+
+Summary of Differences:
+| Feature                | Basic Version                   | Better Version                                                              |
+| ---------------------- | ------------------------------- | --------------------------------------------------------------------------- |
+| Personalization        | ❌                               | ✅ (Clearly describes a personal pattern of procrastination)                 |
+| Root Cause Exploration | ❌                               | ✅ (Seeks psychological reasoning, not just surface-level tips)              |
+| Outcome-Oriented       | Moderate (stop procrastination) | ✅ (Use time/skills more efficiently, stop mental looping, retrain behavior) |
+| Emotional Intelligence | ❌                               | ✅ (Acknowledges inner conflict: constant thinking vs. no action)            |
+| Depth of Inquiry       | Low                             | High (invites practical, cognitive, and emotional guidance)                 |
+
+Advance version: “I procrastinate with difficult and/or newer tasks. Once I start, I usually finish them quickly, but I delay starting and end up anxious and mentally drained from thinking about them. Can you break down the cognitive and emotional triggers behind this pattern? I’d also like a set of daily micro-practices to help me rewire this loop and become more action-oriented without burning out.”
+~~~~~~~~~~~~~~~~~~~~~
 3. How can I manage my time better when working from home?
+Clarity: Simple and understandable.
 
+Limitations:
+No details about work hours, personal goals, or lifestyle needs.
+Broad and non-personalized.
+Likely Output: Generic advice like "create a schedule," "avoid distractions," or "set boundaries."
+
+
+Better version: “I work from home living in X time zone and working in the same (or Y)time zone. My work takes up Z hours normally and additional Q hours when working overtime occasionally. 
+Based on this information help me figure out how can I manage my time better while still allowing myself to proper rest, regular exercise, time with my family and friends and still be left with time that I can use towards my tasks A to achieve B in time C”
+What’s Improved
+| Feature                      | Analysis                                                                                                                                      |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Time Zone Awareness**      | Time zone clarification makes this globally relevant—especially for remote workers handling async or cross-time-zone teams.                   |
+| **Workload Quantification**  | By providing normal (Z) and occasional (Q) work hours, the model can now **calculate feasible time windows**.                                 |
+| **Balanced Lifestyle Focus** | You now specify *rest, fitness, relationships*, and *goals*, which shifts the prompt from just time management to **whole-life integration**. |
+| **Goal Setting**             | You include *task A*, *goal B*, and *deadline C*, making this a **productivity planning + life scheduling** hybrid prompt.                    |
+| **Constraints + Ambitions**  | This is no longer just “how do I manage time?”—it’s “how do I optimize it for meaningful progress while still staying human?”                 |
+
+Summary of Differences:
+| Feature                          | Basic Version | Better Version                                                            |
+| -------------------------------- | ------------- | ------------------------------------------------------------------------- |
+| Work Context (hours + time zone) | ❌             | ✅ (Z work hours, Q overtime, X/Y time zones)                              |
+| Lifestyle Integration            | ❌             | ✅ (Rest, exercise, family/friends included explicitly)                    |
+| Goal Alignment                   | ❌             | ✅ (Tasks A, goal B, timeline C defined)                                   |
+| Personalization                  | Low           | High (Work context + life priorities + goals)                             |
+| Output Quality Potential         | Generic tips  | High-quality, structured plan tailored to personal and professional goals |
+
+Advance version: “I work from home in [X time zone], sometimes syncing with [Y time zone]. My core work takes Z hours daily, with Q hours of occasional overtime. I want to design a flexible schedule that supports deep work during peak productivity windows, while still giving me time for rest, fitness, meaningful relationships, and strategic focus time for [task A], which I need to complete to achieve [goal B] by [deadline C]. Please help me build a realistic weekly structure with buffer zones, accountability checkpoints, and space for recovery.”
+
+This wording invites:
+Peak performance alignment
+Buffer management
+Strategic use of focused time
+Burnout prevention
+
+~~~~~~~~~~~~~~~~~~~~~
 4. Give me a to-do list template.
 
+~~~~~~~~~~~~~~~~~~~~~
 5. Suggest a morning routine for better productivity.
 
+~~~~~~~~~~~~~~~~~~~~~
 6. How do I prioritize tasks effectively?
 
+~~~~~~~~~~~~~~~~~~~~~
 7. What’s the Pomodoro Technique and how can I use it?
 
+~~~~~~~~~~~~~~~~~~~~~
 8. Help me create a study plan for exams.
 
+~~~~~~~~~~~~~~~~~~~~~
 9. How can I balance multiple projects at once?
 
+~~~~~~~~~~~~~~~~~~~~~
 10. Give me time-blocking tips for my calendar.
 
+~~~~~~~~~~~~~~~~~~~~~
 11. How can I stay focused for long periods?
 
+~~~~~~~~~~~~~~~~~~~~~
 12. What are the best productivity apps to use?
 
+~~~~~~~~~~~~~~~~~~~~~
 13. How do I plan a productive weekend?
 
+~~~~~~~~~~~~~~~~~~~~~
 14. Can you help me create a weekly work plan?
 
+~~~~~~~~~~~~~~~~~~~~~
 15. What’s a good nighttime routine to improve next-day focus?
 
+~~~~~~~~~~~~~~~~~~~~~
 16. How can I make my mornings less rushed and more productive?
 
+~~~~~~~~~~~~~~~~~~~~~
 17. How do I set realistic daily goals?
 
+~~~~~~~~~~~~~~~~~~~~~
 18. What’s the best way to reflect on how I spent my time?
 
+~~~~~~~~~~~~~~~~~~~~~
 19. How can I deal with distractions during work?
 
+~~~~~~~~~~~~~~~~~~~~~
 20. Help me develop habits for better time management.
 
