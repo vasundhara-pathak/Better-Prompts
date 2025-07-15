@@ -28,6 +28,7 @@ Result: Much more nuanced and strategic. This turns a schedule generator prompt 
 | Prompt Style                     | Generic      | Personalized      | Outcome-driven                          |
 
 
+
 ~~~~~~~~~~~~~~~~~~~~~
 2. What are some tips to stop procrastinating?
 Clarity: Very clear.
@@ -69,6 +70,9 @@ Summary of Differences:
 | Depth of Inquiry       | Low                             | High (invites practical, cognitive, and emotional guidance)                 |
 
 Advance version: “I procrastinate with difficult and/or newer tasks. Once I start, I usually finish them quickly, but I delay starting and end up anxious and mentally drained from thinking about them. Can you break down the cognitive and emotional triggers behind this pattern? I’d also like a set of daily micro-practices to help me rewire this loop and become more action-oriented without burning out.”
+
+
+
 ~~~~~~~~~~~~~~~~~~~~~
 3. How can I manage my time better when working from home?
 Clarity: Simple and understandable.
@@ -107,11 +111,44 @@ Buffer management
 Strategic use of focused time
 Burnout prevention
 
+
+
 ~~~~~~~~~~~~~~~~~~~~~
 4. Give me a to-do list template.
 
 ~~~~~~~~~~~~~~~~~~~~~
 5. Suggest a morning routine for better productivity.
+Clarity: Broad but understandable.
+Limitations: No context on time, lifestyle, responsibilities, or goals.
+Likely Output: Generic advice like "wake up early," "journal," "exercise"—useful, but not tailored or time-efficient.
+
+Better version: “I wake up at X am and need to get to work/school/university at Y am. With Z hours in between this timeframe, I use A minutes for commute. Help me make a morning routine, where I can time block my tasks C,D,E and F for maximum productivity and get a strong start on the day. If possible, suggest tasks that I can include that would benefit me mentally, physically and spiritually during this time period.”
+What’s Improved:
+| Element                | Improvement                                                                                      |
+| ---------------------- | ------------------------------------------------------------------------------------------------ |
+| **Time Specificity**   | Defines exact available time (Z hours minus A minutes commute). Helps tailor realistic routines. |
+| **Task Customization** | Focuses on blocking specific tasks (C, D, E, F), not random habits.                              |
+| **Holistic Focus**     | Adds mental, physical, and spiritual benefits, signaling the need for a well-rounded routine.    |
+| **Output Quality**     | Resulting routine will be personalized, time-bound, and meaningful rather than generic.          |
+| **Use Case Fit**       | Ideal for students, professionals, or anyone seeking to reclaim mornings for balance and impact. |
+
+Advance version: better version + “Also suggest what can I include during my night routine that could help me during my morning routine on the next day to be more time efficient.”
+What’s Improved in the Advanced Version:
+| Element                     | Upgrade                                                                                                                                |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **Forward Linking**         | Connects evening habits to next-day performance, encouraging routine optimization across the full 24-hour cycle.                       |
+| **Strategic Thinking**      | Forces the AI to consider cause-and-effect in behavioral planning (e.g., laying out clothes, prepping breakfast, or planning tasks).   |
+| **Time Efficiency Framing** | Makes morning planning more proactive by minimizing morning decision fatigue.                                                          |
+| **Result**                  | This transforms the prompt into a **24-hour productivity loop** designer—ideal for high performers, biohackers, or routine optimizers. |
+
+Comparison Summary: Use-Case Fit + Outcome-Based
+| **Prompt Version**                                                                                   | **Best For**                                                         | **What It Helps You Achieve**                                                                       | **Limitations**                                                          |
+| ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Base Prompt**<br>*“Suggest a morning routine for better productivity.”*                            | Anyone needing quick, surface-level advice                           | A basic idea of productive habits to start the day                                                  | Too generic, lacks personalization or alignment with real schedules      |
+| **Better Prompt**<br>*“I wake up at X am… time block tasks C, D, E, and F…”*                         | Students, professionals, or remote workers with a set morning window | A realistic, time-bound, and balanced routine with mental/physical/spiritual benefits               | Doesn’t connect with what happens the night before—misses full-day flow  |
+| **Advanced Prompt**<br>*Better version + “Also suggest what I can include during my night routine…”* | High-performers, habit-builders, and systems thinkers                | A fully optimized 24-hour cycle that reinforces long-term productivity and reduces decision fatigue | May be complex for beginners without initial structure or habit momentum |
+
+
 
 ~~~~~~~~~~~~~~~~~~~~~
 6. How do I prioritize tasks effectively?
